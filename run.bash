@@ -16,6 +16,8 @@ git clone https://github.com/legendnodes/openGovVote.git
 cd openGovVote
 
 # Step 5: Create .env file and store seed-phrase as follow
+# make sure your proxy account has voting privileges for each of your proxied accounts 
+
 sudo nano .env
 POLKADOT_PROXY_SEED="your-polkadot-proxy-seed"
 KUSAMA_PROXY_SEED="your-kusama-proxy-seed"
@@ -28,12 +30,10 @@ KUSAMA_PROXY_SEED="your-kusama-proxy-seed"
 
 sudo nano description.json
 
-
-# make sure your proxy account has voting privileges for each of your proxied accounts 
-
 # Step 7: give permission and run the process 
 chmod +x defvote.js
 node defvote.js
+
 
 
 
