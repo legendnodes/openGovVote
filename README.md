@@ -1,7 +1,7 @@
 # OpenGov
 Polkadot &amp; Kusama openGov voting with CLI
 
-The script allows user to vote in openGov referendum for both Polkadot and Kusama from multiple accounts via their proxy
+The script allows user to easily broadcast votes for multiple referendums from multiple addresses via proxy account, for both Polkadot and Kusama networks.
 
 The voting process is as follows:
 1) Choose which network he wishes to vote - polkadot or kusama
@@ -13,5 +13,6 @@ The voting process is as follows:
 7) Adding another proxied account and start the process again, or moving on to broadcast the user inputs
   
 For safety, it's recommended to use proxy account with minimal amount of tokens only for the transactions fees
+
 
 
