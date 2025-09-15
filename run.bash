@@ -17,6 +17,8 @@ cd openGovVote
 
 # Step 5: Create .env file and store seed-phrase as follow
 sudo nano .env
+POLKADOT_PROXY_SEED="your-polkadot-proxy-seed"
+KUSAMA_PROXY_SEED="your-kusama-proxy-seed"
 
 # step 6: modify description.json file. Add your default addresses, amounts and conviction. This will be used as default unless you wish to enter it manually
 # The idea is that if you usually use the same addresses, amounts and conviction, then you can avoid typing it over and over
@@ -24,15 +26,15 @@ sudo nano .env
 # If you use default, the only fields you should type are the referendums (comma separated) and side (aye/nay)
 # if you don't want to use default - you'll have the opportunity to enter address, amount and conviction manually 
 
-# Step 6: Create .env file and store seed-phrase as follow
-POLKADOT_PROXY_SEED="your-polkadot-proxy-seed"
-KUSAMA_PROXY_SEED="your-kusama-proxy-seed"
+sudo nano description.json
+
 
 # make sure your proxy account has voting privileges for each of your proxied accounts 
 
 # Step 7: give permission and run the process 
 chmod +x defvote.js
 node defvote.js
+
 
 
 
