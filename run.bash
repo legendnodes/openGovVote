@@ -22,10 +22,9 @@ sudo nano .env
 POLKADOT_PROXY_SEED="your-polkadot-proxy-seed"
 KUSAMA_PROXY_SEED="your-kusama-proxy-seed"
 
-# step 6: Modify description.json file. Add your default addresses, amounts and conviction. This will be used as default unless you wish to enter it manually.
+# step 6: Modify description.json file. Add your default addresses, amounts and conviction (no need to touch anything else).
+# This file will be used as default unless you wish to enter it manually during the voting process.
 # Amount and conviction are float and integer, respectively.
-# If you use default, the only fields you should type are the referendums (comma separated) and side (aye/nay).
-# Otherwise - you'll be referred to enter the address, amount and conviction per each referendum manually.
 
 sudo nano description.json
 
