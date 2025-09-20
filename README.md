@@ -1,3 +1,4 @@
+
 # OpenGov
 Polkadot &amp; Kusama openGov voting with CLI
 
@@ -5,8 +6,8 @@ The script allows users to easily broadcast votes for multiple referendums from 
 
 The voting process is as follows:
 1) Choose whether you want to use default values or not (pre-set addresses/amounts)? (y/n).
-2) If yes, follow steps 4-6 only.
-3) If not, follow all the steps.
+2) If yes, follow steps 4-6,11 only.
+3) If not, follow all the steps below.
 4) Choose a network - polkadot or kusama.
 5) Enter referendums you want to vote (comma separated).
 6) Enter vote type for each referendum (aye/nay).
@@ -14,6 +15,8 @@ The voting process is as follows:
 8) Enter a proxied address.
 9) Choose the amount of DOT/KSM - note: you can choose the same amount for all referendums.
 10) Upon request, you can add another proxied account and restart the process, or move directly to broadcast your votes.
+11) Check your final voting table and confirm broadcasting your votes.
+
 
 
 
