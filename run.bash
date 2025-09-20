@@ -15,26 +15,20 @@ npm install @polkadot/api
 git clone https://github.com/legendnodes/openGovVote.git
 cd openGovVote
 
-# Step 5: Create .env file and store seed-phrase as follow
-# make sure your proxy account has voting privileges for each of your proxied accounts 
+# Step 5: Create a .env file and store the seed-phrase of your proxy account which will be used to execute the voting.
+# Make sure your proxy account has voting privileges for each of your proxied accounts.
 
 sudo nano .env
 POLKADOT_PROXY_SEED="your-polkadot-proxy-seed"
 KUSAMA_PROXY_SEED="your-kusama-proxy-seed"
 
-# step 6: modify description.json file. Add your default addresses, amounts and conviction. This will be used as default unless you wish to enter it manually
-# The idea is that if you usually use the same addresses, amounts and conviction, then you can avoid typing it over and over
-# amount and conviction are float and integer, respectively
-# If you use default, the only fields you should type are the referendums (comma separated) and side (aye/nay)
-# if you don't want to use default - you'll have the opportunity to enter address, amount and conviction manually 
+# step 6: Modify description.json file. Add your default addresses, amounts and conviction. This will be used as default unless you wish to enter it manually.
+# Amount and conviction are float and integer, respectively.
+# If you use default, the only fields you should type are the referendums (comma separated) and side (aye/nay).
+# Otherwise - you'll be referred to enter the address, amount and conviction per each referendum manually.
 
 sudo nano description.json
 
 # Step 7: give permission and run the process 
 chmod +x defvote.js
 node defvote.js
-
-
-
-
-
