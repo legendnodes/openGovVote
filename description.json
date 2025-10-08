@@ -10,7 +10,7 @@
     ]
   },
   "kusama": {
-    "ws": "wss://kusama-rpc.polkadot.io",
+    "ws": "wss://kusama-asset-hub-rpc.polkadot.io",
     "token": "KSM",
     "seed_env": "KUSAMA_PROXY_SEED",
     "_comment": "Amounts are in whole KSM, conviction is multiplier. You can add as many addresses as you wish",
@@ -21,3 +21,4 @@
   }
 
 }
+
