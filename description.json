@@ -1,6 +1,6 @@
 {
   "polkadot": {
-    "ws": "wss://rpc.polkadot.io",
+    "ws": "wss://polkadot-asset-hub-rpc.polkadot.io",
     "token": "DOT",
     "seed_env": "POLKADOT_PROXY_SEED",
     "_comment": "Amounts are in whole DOT, conviction is multiplier. You can add as many addresses as you wish",
@@ -21,4 +21,5 @@
   }
 
 }
+
 
